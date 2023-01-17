@@ -1,0 +1,17 @@
+.buttonLike {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 19px;
+    color: black;
+    font-size: 12px;
+    width: 50px;
+    &:hover {
+        color: black;
+        transform: scale(1.2, 1.2);
+    }
+}

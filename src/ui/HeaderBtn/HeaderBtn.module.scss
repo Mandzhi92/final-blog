@@ -1,0 +1,57 @@
+.signIn {
+    background-color: white;
+    cursor: pointer;
+    height: 100%;
+}
+
+.signUp {
+    background-color: white;
+    color: #52C41A;
+    width: 110px;
+    padding: 6px auto 10px;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    &:hover{
+        border: 1px solid  rgb(183, 0, 255);
+    }
+}
+
+.createArticle {
+    background-color: white;
+    color: #52C41A;
+    padding: 6px auto 10px;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid  rgb(183, 0, 255);
+    }
+}
+
+.logOut {
+    background-color: white;
+    cursor: pointer;
+    height: 100%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    width: 110px;
+    &:hover{
+        border: 1px solid  rgb(183, 0, 255);
+    }
+}
+
+.profile {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
